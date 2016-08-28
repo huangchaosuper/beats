@@ -1,0 +1,133 @@
+{
+    "@timestamp": "2016-05-23T08:05:34.853Z",
+    "beat": {
+        "hostname": "host.example.com",
+        "name": "host.example.com"
+    },
+    "metricset": {
+        "host": "localhost",
+        "module": "mongodb",
+        "name": "status",
+        "rtt": 115
+    },
+    "mongodb": {
+        "status": {
+            "asserts": {
+                "msg": 0,
+                "regular": 0,
+                "rollovers": 0,
+                "user": 0,
+                "warning": 0
+            },
+            "background_flushing": {
+                "average": {
+                    "ms": 0
+                },
+                "flushes": 0,
+                "last": {
+                    "ms": 0
+                },
+                "last_finished": "1970-01-01T00:00:00.000Z",
+                "total": {
+                    "ms": 0
+                }
+            },
+            "connections": {
+                "available": 838858,
+                "current": 2,
+                "total_created": 2
+            },
+            "extra_info": {
+                "heap_usage": {
+                    "bytes": 62906976
+                },
+                "page_faults": 8
+            },
+            "journaling": {
+                "commits": 30,
+                "commits_in_write_lock": 0,
+                "compression": 0,
+                "early_commits": 0,
+                "journaled": {
+                    "mb": 0
+                },
+                "times": {
+                    "commits": {
+                        "ms": 0
+                    },
+                    "commits_in_write_lock": {
+                        "ms": 0
+                    },
+                    "dt": {
+                        "ms": 3096
+                    },
+                    "prep_log_buffer": {
+                        "ms": 0
+                    },
+                    "remap_private_view": {
+                        "ms": 0
+                    },
+                    "write_to_data_files": {
+                        "ms": 0
+                    },
+                    "write_to_journal": {
+                        "ms": 0
+                    }
+                },
+                "write_to_data_files": {
+                    "mb": 0
+                }
+            },
+            "local_time": "2016-08-19T10:01:41.565Z",
+            "memory": {
+                "bits": 64,
+                "mapped": {
+                    "mb": 80
+                },
+                "mapped_with_journal": {
+                    "mb": 160
+                },
+                "resident": {
+                    "mb": 57
+                },
+                "virtual": {
+                    "mb": 356
+                }
+            },
+            "network": {
+                "in": {
+                    "bytes": 402
+                },
+                "out": {
+                    "bytes": 10657
+                },
+                "requests": 7
+            },
+            "opcounters": {
+                "command": 8,
+                "delete": 0,
+                "getmore": 0,
+                "insert": 0,
+                "query": 1,
+                "update": 0
+            },
+            "opcounters_replicated": {
+                "command": 0,
+                "delete": 0,
+                "getmore": 0,
+                "insert": 0,
+                "query": 0,
+                "update": 0
+            },
+            "storage_engine": {
+                "name": "mmapv1"
+            },
+            "uptime": {
+                "ms": 24689
+            },
+            "version": "3.0.12",
+            "write_backs_queued": false
+        }
+    },
+    "type": "metricsets"
+}
